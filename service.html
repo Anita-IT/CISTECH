@@ -3,35 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service</title>
+    <title>Our Services | CisTech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <section id="technology">
-    <h2>Technology</h2>
-</section>
 
-<section id="construction">
-    <h2>Construction</h2>
-</section>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-solid">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="service.html" class="active">Service</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="capabilities.html">Capabilities</a></li>
+        </ul>
+    </nav>
 
-<section id="logistics">
-    <h2>Logistics</h2>
-</section>
+    <!-- PAGE BANNER -->
+    <header class="page-banner">
+        <div class="page-banner-inner">
+            <p class="section-label">WHAT WE DO</p>
+            <h1>Integrated Solutions Across Six Industries</h1>
+            <p>From engineering and construction to energy, logistics, technology and security, CisTech delivers end-to-end services for clients across Nigeria and West Africa.</p>
+        </div>
+    </header>
 
-<section id="security">
-    <h2>Security</h2>
-</section>
+    <!-- OVERVIEW -->
+    <section class="svc-overview" id="services">
+        <div class="svc-overview-grid">
+            <a href="#oil-and-gas" class="svc-chip"><i class="fa-solid fa-droplet"></i><span>Oil &amp; Gas</span></a>
+            <a href="#construction" class="svc-chip"><i class="fa-solid fa-gears"></i><span>Engineering &amp; Construction</span></a>
+            <a href="#logistics" class="svc-chip"><i class="fa-solid fa-truck"></i><span>Logistics</span></a>
+            <a href="#epc" class="svc-chip"><i class="fa-solid fa-helmet-safety"></i><span>EPC</span></a>
+            <a href="#technology" class="svc-chip"><i class="fa-solid fa-desktop"></i><span>Technology</span></a>
+            <a href="#security" class="svc-chip"><i class="fa-solid fa-shield-halved"></i><span>Security &amp; Surveillance</span></a>
+        </div>
+    </section>
 
-<section id="oil-and-gas">
-    <h2>Oil & Gas</h2>
-</section>
+    <!-- OIL & GAS -->
+    <section class="svc-section" id="oil-and-gas">
+        <div class="svc-text">
+            <i class="fa-solid fa-droplet svc-icon"></i>
+            <p class="section-label">OIL &amp; GAS</p>
+            <h2>Upstream, Midstream and Downstream Support</h2>
+            <p>We support operators and contractors across the oil and gas value chain with reliable, safety-focused services.</p>
+            <ul class="svc-list">
+                <li>Procurement and supply of oilfield materials</li>
+                <li>Pipeline and facility maintenance support</li>
+                <li>Manpower and technical personnel supply</li>
+                <li>HSE compliance and industrial support</li>
+            </ul>
+            <a href="contact.html" class="btn">Request a Quote <span class="arrow">&rarr;</span></a>
+        </div>
+        <div class="svc-image"><img src="image/_.jpeg" alt="Oil and gas services"></div>
+    </section>
 
-<section id="epc">
-    <h2>Surveillance</h2>
-</section>
+    <!-- CONSTRUCTION -->
+    <section class="svc-section svc-alt" id="construction">
+        <div class="svc-text">
+            <i class="fa-solid fa-gears svc-icon"></i>
+            <p class="section-label">ENGINEERING &amp; CONSTRUCTION</p>
+            <h2>Built to Last, Delivered on Schedule</h2>
+            <p>Our engineering and construction teams take projects from design through to handover with strict quality control.</p>
+            <ul class="svc-list">
+                <li>Civil, structural and building works</li>
+                <li>Engineering design and project management</li>
+                <li>Industrial and commercial facilities</li>
+                <li>Renovation, fit-out and maintenance</li>
+            </ul>
+            <a href="contact.html" class="btn">Request a Quote <span class="arrow">&rarr;</span></a>
+        </div>
+        <div class="svc-image"><img src="image/construction.jpg" alt="Engineering and construction"></div>
+    </section>
 
-<section id="services">
-    <h2>Our Services</h2>
-</section>
+    <!-- LOGISTICS -->
+    <section class="svc-section" id="logistics">
+        <div class="svc-text">
+            <i class="fa-solid fa-truck svc-icon"></i>
+            <p class="section-label">LOGISTICS</p>
+            <h2>Supply Chain Solutions That Keep You Moving</h2>
+            <p>Dependable logistics for moving people, equipment and materials safely to project sites and markets.</p>
+            <ul class="svc-list">
+                <li>Freight, haulage and last-mile delivery</li>
+                <li>Warehousing and inventory management</li>
+                <li>Customs clearing and documentation</li>
+                <li>Heavy equipment and project cargo transport</li>
+            </ul>
+            <a href="contact.html" class="btn">Request a Quote <span class="arrow">&rarr;</span></a>
+        </div>
+        <div class="svc-image"><img src="image/logistic .jpg" alt="Logistics services"></div>
+    </section>
+
+    <!-- EPC -->
+    <section class="svc-section svc-alt" id="epc">
+        <div class="svc-text">
+            <i class="fa-solid fa-helmet-safety svc-icon"></i>
+            <p class="section-label">EPC</p>
+            <h2>One Partner From Concept to Commissioning</h2>
+            <p>Engineering, procurement and construction under a single point of accountability, reducing risk, cost and delay.</p>
+            <ul class="svc-list">
+                <li>Front-end engineering and detailed design</li>
+                <li>Procurement, expediting and vendor management</li>
+                <li>Construction, installation and commissioning</li>
+                <li>Turnkey delivery for complex projects</li>
+            </ul>
+            <a href="contact.html" class="btn">Request a Quote <span class="arrow">&rarr;</span></a>
+        </div>
+        <div class="svc-image"><img src="image/image2.jpg" alt="EPC project execution"></div>
+    </section>
+
+    <!-- TECHNOLOGY -->
+    <section class="svc-section" id="technology">
+        <div class="svc-text">
+            <i class="fa-solid fa-desktop svc-icon"></i>
+            <p class="section-label">TECHNOLOGY</p>
+            <h2>Smarter Operations Through Technology</h2>
+            <p>Practical technology solutions that help organisations work more efficiently and make better decisions.</p>
+            <ul class="svc-list">
+                <li>IT infrastructure and networking</li>
+                <li>Software and systems integration</li>
+                <li>Smart infrastructure deployment</li>
+                <li>Technical support and managed services</li>
+            </ul>
+            <a href="contact.html" class="btn">Request a Quote <span class="arrow">&rarr;</span></a>
+        </div>
+        <div class="svc-image"><img src="image/Technology 1.jpg" alt="Technology solutions"></div>
+    </section>
+
+    <!-- SECURITY -->
+    <section class="svc-section svc-alt" id="security">
+        <div class="svc-text">
+            <i class="fa-solid fa-shield-halved svc-icon"></i>
+            <p class="section-label">SECURITY &amp; SURVEILLANCE</p>
+            <h2>Protecting People, Property and Assets</h2>
+            <p>Layered security solutions combining trained personnel with modern surveillance technology.</p>
+            <ul class="svc-list">
+                <li>CCTV design, installation and monitoring</li>
+                <li>Access control and perimeter protection</li>
+                <li>Trained guard and manpower services</li>
+                <li>Risk assessment and security consulting</li>
+            </ul>
+            <a href="contact.html" class="btn">Request a Quote <span class="arrow">&rarr;</span></a>
+        </div>
+        <div class="svc-image"><img src="image/camera 1.jpg" alt="Security and surveillance"></div>
+    </section>
+
+    <!-- CTA -->
+    <section class="svc-cta">
+        <h2>Have a Project in Mind?</h2>
+        <p>Tell us what you need and our team will get back to you with a tailored solution.</p>
+        <a href="contact.html" class="btn">Contact Us <span class="arrow">&rarr;</span></a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2>CisTech</h2>
+                <p>Delivering reliable, innovative and sustainable solutions across key industries.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="service.html">Services</a>
+                <a href="project.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h3>Services</h3>
+                <a href="service.html#technology">Technology</a>
+                <a href="service.html#construction">Construction</a>
+                <a href="service.html#logistics">Logistics</a>
+                <a href="service.html#security">Security</a>
+                <a href="service.html#oil-and-gas">Oil &amp; Gas</a>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Abuja, Nigeria</p>
+                <p><i class="fa-solid fa-phone"></i> +234 XXX XXX XXXX</p>
+                <p><i class="fa-solid fa-envelope"></i> info@cistech.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 CisTech. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
